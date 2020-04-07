@@ -1,0 +1,100 @@
+
+header, footer {
+	margin: .75em 2.5%;
+	border: groove;
+	border-radius: 1em;
+	border-color: #111;
+	background-color: #333;
+	}
+
+body {
+	background-color: black;
+	}
+
+main {
+	min-height: 20em;
+	padding: 0 1.5em;
+	margin: 0 7.5%;
+	border: groove;
+	border-radius: 1em;
+	border-color: #111;
+	background-color: #333;
+	color: white;
+	}
+
+/* Text */
+h1, h2 {
+	color: tan;
+	text-shadow: 2px 2px 5px black;
+	}
+h1 {text-align: center;}
+p {word-wrap: break-word;}
+
+/* Home Page Only */
+img {
+	float: left;
+	width: 48%;
+	border: groove;
+	border-radius: 1em;
+	border-color: #111;
+	}
+#wolfpack {float: right;}
+#wolfredfoliage {
+	width: 99%;
+	margin: .25em 0;
+	}
+#vid {
+	width: 99%;
+	margin: 0 0 1em;
+	border: groove;
+	border-radius: 1em;
+	border-color: #111;
+	}
+
+/* Literature Review Page Only */
+article {padding: 0.25em 0;}
+#introduction {padding: 0;}
+
+/* Discovery Log Page Only */
+ul {margin: 0 0 2em 0;}
+
+/* NAVIGATION */
+nav{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 1em;
+	background-color: #333;
+	}
+
+nav a {
+	display: block;
+	padding: 1em;
+	float: left;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	}
+
+nav a.right {float: right;}
+
+nav a:hover:not(.active) {background-color: #111;}
+
+nav a.active {background-color: tan;}
+
+@media screen and (max-width: 550px) {
+	nav a, nav a.right {float: none;}
+	main {margin: 0 2.5%;}
+	}
+
+#returntotop {
+	display: block;
+	padding: .5em;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	
+	}
+#returntotop:hover {background-color: #111;}
